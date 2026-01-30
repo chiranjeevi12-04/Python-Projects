@@ -1,0 +1,35 @@
+
+# python calculator
+
+num1 = float(input("enter the num1: "))
+num2 = float(input("enter the num2: "))
+operator = input("select the operator(+,-,*,/): ")
+if operator == "+":
+    print(num1+num2)
+elif operator == "-":
+    print(num1-num2)    
+elif operator == "*":
+    print(num1*num2)    
+elif operator == "/":
+    print(num1/num2)    
+else:
+    print(f"yuh enter a invalid operator")    
+
+
+
+weight = (input("enter the weight in (K or L): "))
+if weight == "K":
+    kgs = float(input())
+    pounds = kgs * 2.205
+    print("{pounds}lbs")
+elif weight == "L":
+    pounds = float(input())
+    kgs = pounds/2.205
+
+
+num = 11
+result = "even" if num%2==0 else "odd"
+print(result)    
+
+
+

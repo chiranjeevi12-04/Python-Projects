@@ -17,19 +17,5 @@ else:
 
 
 
-weight = (input("enter the weight in (K or L): "))
-if weight == "K":
-    kgs = float(input())
-    pounds = kgs * 2.205
-    print("{pounds}lbs")
-elif weight == "L":
-    pounds = float(input())
-    kgs = pounds/2.205
-
-
-num = 11
-result = "even" if num%2==0 else "odd"
-print(result)    
-
 
 
